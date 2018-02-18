@@ -1,4 +1,5 @@
-interpreter - python 2.7
+interpreter - python 2.7 for [phase 1]S-t-T and [phase 2]context-extraction
+              python 3.3 for [phase 3]TTS --- (because of connection issues)interpreter - python 2.7
 
 SDK modules - voicerss_tts, houndify
 
