@@ -1,0 +1,33 @@
+interpreter - python 2.7 for [phase 1]S-t-T and [phase 2]context-extraction
+              python 3.3 for [phase 3]TTS --- (because of connection issues (only in Chinmay-PC))
+
+          BUT,
+            the [chain] seems to run fine using just python 2.7 on Pi 
+
+SDK modules - voicerss_tts, houndify
+
+modules - wave, wikipedia, glob, difflib
+ 
+libraries - urllib, httplib (for python 2.7)
+	        
+
+
+
+display: 
+	LCD
+	phone via VNC
+
+APPs : 
+	word dictionary
+	word/phrase search (wiki)
+	voice message log
+	music player
+	result predictor (data analysis)
+	recipe-of-the-day
+	
+
+extras :
+	remote activation/deactivation
+	auto-activation on face detection
+	voice-synced lights
+	
