@@ -1,3 +1,5 @@
+__author__ = "Chinmay Rao"
+
 import json
 import wikipedia
 import datetime
