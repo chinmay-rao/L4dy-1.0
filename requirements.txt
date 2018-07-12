@@ -1,5 +1,4 @@
 urllib
-wave
 wikipedia
 glob
 difflib
