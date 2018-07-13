@@ -1,5 +1,5 @@
 # Lady-Leaf
-Speech enabled assistant chat-bot with rule-based context extraction and very limited features (for now).
+Speech-enabled goal-oriented dialogue system with rule-based context determination and very limited features (for now). 
 
 
 [Phase-1]:STT conversion
@@ -8,3 +8,8 @@ Speech enabled assistant chat-bot with rule-based context extraction and very li
 [chain]:All the phases chained
 
 ![alt text](https://raw.githubusercontent.com/chinmay-rao/L4dy-1.0/master/%5Bblock-diagram%5D.png)
+
+The system’s working can be broken down into a sequence of three fundamental processes:
+1. Speech-to-text conversion of the user’s query
+2. Processing stage: Rule-based context determination and app interaction
+3. Text-to-Speech conversion of the reply string 
