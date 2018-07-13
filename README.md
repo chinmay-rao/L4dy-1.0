@@ -9,7 +9,7 @@ Speech-enabled goal-oriented dialogue system with rule-based context determinati
 
 ![alt text](https://raw.githubusercontent.com/chinmay-rao/L4dy-1.0/master/%5Bblock-diagram%5D.png)
 
-The system’s working can be broken down into a sequence of three fundamental processes:
+Breakdown of system operation:
 
 1. **Speech-to-text conversion of the user’s query:** The audio data captured from the microphone has to be converted to a character string before doing any further processing. Speech to text conversion tasks can be done in a number of different ways – using a conversion engine (such as PocketSphinx), deploying trained neural models (such as RNNs and LSTMs) locally, or using cloud services.
 Here, the STT conversion is carried out using the Houndify cloud API.The recorded audio is obtained and is transfered to the Houndify cloud API. After the conversion, the cloud API returns a string which is the transcript of the user’s speech query. This string is now ready for further processing.
